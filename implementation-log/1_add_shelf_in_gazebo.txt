@@ -1,0 +1,6 @@
+cp kiva_pod cd ~/.gazebo/models/
+optirun roslaunch gazebo_worlds empty_world.launch
+
+Check if you can insert the shelf correctly
+http://i.imgur.com/nUwgR7o.png
+
