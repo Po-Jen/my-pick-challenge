@@ -4,10 +4,13 @@ My repo for implementing a robot for amazon picking challenge (developed under U
 ##Challenge Details
 http://amazonpickingchallenge.org/details.shtml
 
+##Now at
+Adjusting the inertia of my first model - cheezit_big_original
+
 ##TODO
 
 ###Environment Setup
-1. Put the shelf and objects inside Gazebo
+1. Put the shelf and objects inside Gazebo (I'm here!!!)
 2. Place PR2 in front of the shelf
 3. Save the world file
 
