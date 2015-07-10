@@ -1,0 +1,22 @@
+1.Download the processed model from http://rll.berkeley.edu/amazon_picking_challenge/
+2.Transform the .stl file to .dae file (because Gazebo only takes .dae or .stl for model's mesh)
+  you can do this by meshlab
+3.cd ~/.gazebo/models
+4.mkdir cheezit_big_original && cd cheezit_big_original
+5.mkdir meshes
+6.copy the mesh and png file into meshes
+7.copy other model's model.sdf and model.config into cheezit_big_original
+8.Modify model.sdf 
+  -Pay attention to the pose (see Q1)
+  -Pay attention to the scale (see Q2)
+9.Modify model.config
+10.Load the model in Gazebo
+
+
+Q1: How to decide the pose of model so that the model will not collide with the floor?
+A:  Let the pose be <pose>0 0 0 0 0 0</pose> 
+
+Q2: How to decide the inertia of the object?
+A:  http://gazebosim.org/tutorials?tut=inertia&cat=build_robot
+
+Before adjustment: http://i.imgur.com/Ho8SPiY.png
