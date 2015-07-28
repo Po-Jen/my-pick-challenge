@@ -27,3 +27,10 @@ Adjusting the inertia of my first model - cheezit_big_original
 ###Grasping
 1. Further study on catkinized GraspIt! or try moveit_simple_grasps in ROS Hydro
 https://github.com/davetcoleman/moveit_simple_grasps
+
+##Reference
+
+1. Team MIT's page & Drake
+
+https://mcube.mit.edu/blog/summary-team-mits-participation-amazon-picking-challenge
+https://github.com/RobotLocomotion/drake
